@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.icon{
+    display: flex;
+    justify-content:center;
+padding-top: 5%;
+margin-bottom: 30px;
+    align-items: center;
+
+    
+}
+
+.img{
+    background-image: url(images/bg-header-desktop.png);
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+}
+.text2{
+   text-align: center;
+
+
+}
+.text2 h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+   font-size: 2.9pc;
+   font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  opacity: 0.8;
+}
+.text2 p{
+    font-size:1.4rem;
+    width: 55%;
+    margin: auto;
+    opacity: 0.4;
+    font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.but1{
+    margin-top: 50px;
+    text-align: center;
+}
+.but1 button{
+    height: 60px;
+    width: 230px;
+    border-radius: 25px;
+    margin: 10px;
+    border: none;
+    color: white;
+
+}
+.but1 #a{
+    background-color: #23b6a1;
+}
+.but1 #a:hover{
+    background-color:#5cccb9 ;
+}
+.but1 #b{
+    background-color:#6174ff ;
+}
+
+.but1:hover #b{
+    background-color: #8896ff;
+}
+.text4{
+
+width: 100%;
+
+}
+.text5{
+    text-align: center;
+    padding-top: 150px;
+}
+.text5 h1{
+font-size: 2rem;
+}
+.text5 p{
+    width: 29%;
+    margin: auto;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+.text6{
+    margin-top: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 55%;
+}
+.text.min1{
+ 
+    margin-bottom: 80px;
+
+}
+.text.min2{
+    margin-bottom: 60px;
+}
+.text h2{
+    margin-bottom: 10px;
+}
+.text p{
+opacity: 0.5;
+line-height: 20px;
+}
+.text8{
+    width: 100%;
+    height: 90vh;
+   text-align: center;
+   margin-top: 150px;
+}
+.text9{
+width: 30%;
+margin: auto;
+}
+.text9 h1{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+.text9 p{
+    margin-bottom: 100px;
+}
+.text10{
+    width: 100%;
+   
+
+}
+.text11{
+    text-align: center;
+   
+}
+.text11 h1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.text11 p{
+    opacity:0.5;
+    margin-bottom: 100px;
+}
+.text12{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+margin: auto;
+text-align: center;
+}
+.text12 svg{
+    margin-bottom: 40px;
+}
+.min3,.min4,.min5{
+   
+    width: 21%;
+}
+.min3 p,.min4 p,.min5 p{
+    opacity: 0.5;
+
+}
+.text21{
+width: 100%;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.text21 img{
+    margin: 100px;
+}
+.text13{
+    height: 50vh;
+    text-align: center;
+}
+.text14 h1{
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.text14 p{
+    width: 31%;
+    margin: auto;
+    opacity: 0.5;
+    margin-bottom: 50px;
+}
+.text15{
+    height: 200px;
+    width: 100%;
+    background-color: #f5f6f8;
+}
+.text15{
+    display: flex;
+  
+    align-items: center;
+    
+}
+.img3{
+    margin-left: 150px;
+}
+.text16{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text18{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    
+}
+.text15 p{
+    margin-bottom: 20px;
+}
+.text19{
+   position: relative;
+   left: 30%;
+}
+.text19 svg{
+    margin-right: 25px;
+    
+}
+.text15 p:hover{
+    color: #5cccb9;
+    cursor:context-menu;
+   
+    
+}
+@media(min-width:100px) and ( max-width:1000px){
+
+    
+
+.icon{
+    display: flex;
+    justify-content:center;
+padding-top: 35%;
+
+    align-items: center;
+}
+.text2 h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+   font-size: 2pc;
+   font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  opacity: 0.8;
+}
+.text2 p{
+    font-size:1rem;
+    width: 80%;
+    margin: auto;
+    opacity: 0.4;
+    font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.but1 button{
+    height: 60px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 10px;
+    border: none;
+    color: white;
+
+}
+.text5{
+    text-align: center;
+    padding-top: 150px;
+}
+.text5 h1{
+font-size: 2rem;
+}
+.text5 p{
+    width: 72%;
+    margin: auto;
+    opacity: 0.5;
+    margin-top: 25px;
+   
+}
+.text6{
+display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.img1 img{
+height: 60%;
+width: 90%;
+margin-bottom: 50px;
+}
+.text{
+    text-align: center;
+   
+    width: 69%;
+    margin: auto;
+}
+
+.text h2{
+    margin-bottom: 10px;
+}
+.text p{
+opacity: 0.5;
+line-height: 20px;
+}
+.text8{
+    width: 100%;
+    height: 75vh;
+   text-align: center;
+   margin-top: 150px;
+}
+.text9{
+width: 75%;
+margin: auto;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+.img3 img{
+    width: 90%;
+    height: 30%;
+}
+.text11{
+   
+   width: 79%;
+   margin: auto;
+}
+
+.text12{
+  display: block;
+    width: 100%;
+
+}
+.text12 p{
+    width: 87%;
+    font-size: 0.8rem;
+    margin: auto;
+}
+.text12 svg{
+    margin-top: 40px;
+}
+.text21{
+   
+ 
+    width: 100%;
+
+    
+   margin: auto;
+}
+.text21 img{
+    display: block;
+    
+
+    margin: 100px 0 100px 0 0;
+}
+.text14 p{
+    width: 75%;
+   
+}
+.text15{
+    height: 400px;
+display: block;
+}
+.img5{
+    width:100% ;
+text-align: center;
+margin-left: 30px;
+  
+}
+.text16{
+    margin-left: 0;
+    margin-right: 0px;
+    text-align: center;
+}
+.text18{
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.text15 p{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.text19{
+ width: 100%;
+margin: auto;
+}
+.text19 svg{
+    margin-right: 25px;
+    
+}
+
+}
+@media(min-width:1001px) and ( max-width:1800px){
+
+    .text6{
+    
+        width: 100%;
+      
+       
+    }
+    .text5 p{
+        width: 39%;
+   
+    }
+    .text9{
+        width: 37%;
+        margin: auto;
+        }
+        .min3,.min4,.min5{
+   
+            width: 27%;
+        }
+        
+            .text21 img{
+                margin: 50px;
+            }
+            .text14 p{
+                width: 38%;
+            
+            }
+        .img5{
+            margin-left: 100px;
+        }
+        .text19{
+            margin-bottom: 40px;
+            left: 15%;
+         }
+}
+@media(min-width:1000px) and ( max-width:1260px){
+
+.text19{
+           
+    left: 2%;
+    margin-bottom: 40px;
+ }
+}
